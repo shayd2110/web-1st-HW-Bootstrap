@@ -4,8 +4,22 @@ body {
 .description {
 	overflow: scroll !important;
 }
-
 .col-centered {
 	float: none;
 	margin: 0 auto;
+}
+
+.img-responsive {
+	height: 100%;
+	width: 100%;
+}
+.col-no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.row.row-no-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
